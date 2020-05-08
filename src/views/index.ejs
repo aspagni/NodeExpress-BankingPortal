@@ -9,4 +9,8 @@
     <a href="/transfer">Transfer</a>
 </div>
 
+<%- include('summary', {account : accounts.savings}); %>
+<%- include('summary', {account : accounts.checking}); %>
+<%- include('summary', {account : accounts.credit}); %>
+
 <%- include('footer'); %>
